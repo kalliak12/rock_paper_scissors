@@ -6,7 +6,7 @@ using namespace std;
 
 char getComputerOption() {
 	srand(time(0));
-	// Random number
+	// It chooses a random number between 1, 2 and 3
 	int num = rand() % 3 + 1;
 
 	if (num == 1) return 'r';
@@ -56,9 +56,7 @@ void chooseWinner(char cchoice, char uchoice){ //r p, p r, r s, s r, p s, s p
 
 }
 int main() {
-	//User's choice
 	char uChoice;
-	//Compter's choice
 	char cChoice;
 
 	uChoice = getUserOption();
