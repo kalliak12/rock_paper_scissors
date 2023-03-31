@@ -1,2 +1,2 @@
-# rock_paper_scissors #cpp #c++ #rps
+# rock_paper_scissors 
 C++ program for the game rock paper scissors.
